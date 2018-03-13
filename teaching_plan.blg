@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: teaching_plan.aux
+The style file: plain.bst
+Database file #1: refteach.bib
+Warning--to sort, need author or key in sschool
+Warning--to sort, need author or key in tube
+You've used 22 entries,
+            2118 wiz_defined-function locations,
+            603 strings with 6474 characters,
+and the built_in function-call counts, 5699 in all, are:
+= -- 514
+> -- 226
+< -- 6
++ -- 95
+- -- 70
+* -- 283
+:= -- 938
+add.period$ -- 62
+call.type$ -- 22
+change.case$ -- 86
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 282
+empty$ -- 537
+format.name$ -- 70
+if$ -- 1234
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 37
+newline$ -- 109
+num.names$ -- 40
+pop$ -- 181
+preamble$ -- 1
+purify$ -- 79
+quote$ -- 0
+skip$ -- 183
+stack$ -- 0
+substring$ -- 193
+swap$ -- 51
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 2
+while$ -- 46
+width$ -- 24
+write$ -- 222
+(There were 2 warnings)

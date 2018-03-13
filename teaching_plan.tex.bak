@@ -1,0 +1,65 @@
+%\documentclass[oneside,8pt,onecolumn,openright]{IIScthesisPSnPDF}
+\documentclass[onecolumn,12pt]{IEEEtran}
+\input{pack.tex}
+\usepackage{url}
+%\usepackage[numbers]{natbib}
+\title{\Large Teaching Plan}
+\author{Chandrashekar L}
+\date{}
+\begin{document}
+%\Huge
+%\begin{center}
+%Panel of Experts
+%\end{center}
+\maketitle
+I owe it to my teachers and colleagues for all that I have learnt, and I sincerely hope to draw inspiration from them while teaching young minds. 
+I believe teaching is not merely repeating, but an opportunity to present ideas in a original and refreshing way, a process which is not only an end in itself but a key stepping stone for research.\par
+\section{Short Term Goals}
+My course work, experience as an analog design engineer and research training at IISc and University of Alberta, enables me to offer a variety of courses related to Computer Science, Electrical Engineering and basic mathematics at the undergraduate level. Some of the courses (not limited to)
+\textbf{Computer Science} 
+\begin{enumerate}
+\item Design and Analysis of Algorithms
+\item Programming and Data Structure
+\item Probability, Stochastic Process and Statistics
+\end{enumerate}
+\textbf{Electrical Engineering}
+\begin{enumerate}
+\item Digital Design \cite{mano}
+\item Microprocessors \cite{mup}
+\item Network/Circuit Theory \cite{hayt}
+\item Analog Electronics \cite{sedra}
+\item Linear Integrated Circuits \cite{franco}
+\item Signals and Systems \cite{ss}
+\item Classical and Modern Control Theory \cite{ogata}. 
+\end{enumerate}
+\textbf{Basic Engineering Mathematics}
+\begin{enumerate}
+\item Linear Algebra \cite{la}
+\item Engineering Mathematics \cite{em}
+\end{enumerate}
+\textbf{Laboratory}
+\begin{enumerate}
+\item Programming and Data Sturctures
+\item Digial and Analog Circuits
+\end{enumerate}
+
+\section{Long Term Goals}
+Reinforcement Learning (RL) algorithms learn from samples obtained via direct interaction with the evinornment, and are different from supervised or unsupervised machine learning algorithms.  Reinforcement learning lies at the intersection of machine learning, stochastic control, optimization and operations research. My primary research focus would be RL and I would like to design courses that enable students to be up to speed with topics in RL. To this end, I would like to design the following advanced undergraduate and graduate courses in ML and RL.
+\subsection{Introduction to Machine Learning}
+Introduction to machine learning. Classification: nearest neighbour, decision trees, perceptron, support vector machines, VC-dimension. Regression: linear least squares regression, support vector regression. Additional learning problems: multiclass classification, ordinal regression, ranking. Ensemble methods: boosting. Probabilistic models: classification, regression, mixture models (unconditional and conditional), parameter estimation, EM algorithm. Beyond IID, directed graphical models: hidden Markov models, Bayesian networks. Beyond IID, undirected graphical models: Markov random fields, conditional random fields. Learning and inference in Bayesian networks and MRFs: parameter estimation, exact inference (variable elimination, belief propagation), approximate inference (loopy belief propagation, sampling). Additional topics: semi-supervised learning, active learning, structured predictio
+\subsection{Introduction to Reinforcement Learning}
+Introduction to reinforcement learning, introduction to stochastic dynamic programming, finite and infinite horizon models, the dynamic programming algorithm, infinite horizon discounted cost and average cost problems, numerical solution methodologies, full state representations, function approximation techniques, approximate dynamic programming, partially observable Markov decision processes, Q-learning, temporal difference learning, actor-critic algorithms.\par
+\subsection{Learning Outside of Classrooms}
+Having been a student at NIT, Trichy and IISc, I believe that a lot of learning happens when students discuss problems in groups. Hence, I would be interested in moderating and guiding 'Technology' clubs by students. For example, a robotics club might a nice place for students from the various disciplines (such as mechaincal, electrical and computer science) to get a hands-on experience in building systems and a taste of open ended problems. Techincal skills apart, interaction amongst peers can help the students in improving their soft skills such as team co-ordination, communication, and ability to set goals etc. By publishing the activities of the club as blogs/videos the student community can interact with fellow researchers from across the world.
+\section{Experience}
+I now list some of relevant teaching and mentoring experience.
+\begin{itemize}
+\item \textbf{Teaching Assistantship:} At the Indian Institute of Science, I was a teaching assistant (TA) for courses such as Linear Algebra and Applications (Aug-Dec 2012, 2013, 2014) and Foundations of Data Sciences (Jan-May 2014).  My duties as a TA involved conducting tutorials, setting quizzes and evaluating scripts.
+\item \textbf{Summer School:} I  was a member of the organizing committee for the Undergraduate Summer School \cite{sschool} conducted by the Department of CSA, IISc. The main aim of the summer school was to introduce undergraduate students to cutting-edge research in computer science via  talks, demos, and hands-on sessions. I have given expository talks on linear algebra \cite{tube} and probability at the UG summer school. As a member of the organizing committee I was involved in the identification of interesting topics/speakers and selection of candidates.
+\item \textbf{Research Presentations:} I have presented my research on internal forums such as the $53^{rd}$ IEEE Conference of Decision and Control held at Los Angeles, California USA, 2014 \cite{cdc} and the $29^{th}$ AAAI conference held at Austin, Texas USA, 2015 \cite{aaai}. I have also received awards for \emph{best research presentation} from Indian Institute of Space Technology, Trivandrum and Indian Institute of Science, Bangalore.
+\item \textbf{Project Guidance:} I have guided masters students of the Stochastic Systems Lab (SSL) at Dept. of CSA, IISc. My work in crowdsourcing \cite{hcomp} was a joint effort with Masters students of the SSL.
+\end{itemize}
+\bibliographystyle{plain}
+\bibliography{refteach}
+\end{document}
+

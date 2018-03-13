@@ -1,0 +1,37 @@
+%\documentclass[oneside,8pt,onecolumn,openright]{IIScthesisPSnPDF}
+\documentclass[8pt]{article}
+\input{pack}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{cleveref}
+\usepackage{wrapfig}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{enumerate}
+\usepackage{placeins}
+\usepackage{cancel}
+\usepackage{mathrsfs}
+% \usepackage{sfgame}
+\usepackage[compact]{titlesec}
+\usepackage{mdwlist}
+\usepackage{varwidth}
+\usepackage[vertfit]{breakurl}
+\usepackage{datetime}
+\usepackage{pdfpages}
+% \usepackage{biblatex}
+\usepackage{setspace}
+\title{Research Proposal}
+\author{}
+\date{}
+\begin{document}
+Markov decision processes (MDPs) with large number of states are of high practical interest. However, conventional al- gorithms to solve MDP are computationally infeasible in this scenario. Approximate dynamic programming (ADP) meth- ods tackle this issue by computing approximate solutions. A widely applied ADP method is approximate linear program (ALP) which makes use of linear function approximation and offers theoretical performance guarantees. Nevertheless, the ALP is difficult to solve due to the presence of a large number of constraints and in practice, a reduced linear program (RLP) is solved instead. The RLP has a tractable number of constraints sampled from the original constraints of the ALP. Though the RLP is known to perform well in experiments, theoretical guarantees are available only for a specific RLP obtained under idealized assumptions.\par
+In this paper, we generalize the RLP to define a generalized reduced linear program (GRLP) which has a tractable number of constraints that are obtained as positive linear com- binations of the original constraints of the ALP. The main contribution of this paper is the novel theoretical framework developed to obtain error bounds for any given GRLP. Central to our framework are two max-norm contraction opera- tors. Our result theoretically justifies linear approximation of constraints. We discuss the implication of our results in the contexts of ADP and reinforcement learning. We also demon- strate via an example in the domain of controlled queues that the experiments conform to the theory.\par
+The paper was published in the proceedings of the 29^{th} Association for Advancement of Artificial Intelligence AAAI Conference held at Austin, Texas, January 2105.
+\includepdf[pages=1-7]{aaai2015_grlp.pdf}
+\end{document}

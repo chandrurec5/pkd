@@ -1,0 +1,40 @@
+%\documentclass[oneside,8pt,onecolumn,openright]{IIScthesisPSnPDF}
+\documentclass[8pt]{article}
+\input{pack}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{cleveref}
+\usepackage{wrapfig}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{enumerate}
+\usepackage{placeins}
+\usepackage{cancel}
+\usepackage{mathrsfs}
+% \usepackage{sfgame}
+\usepackage[compact]{titlesec}
+\usepackage{mdwlist}
+\usepackage{varwidth}
+\usepackage[vertfit]{breakurl}
+\usepackage{datetime}
+\usepackage{pdfpages}
+% \usepackage{biblatex}
+\usepackage{setspace}
+\title{Research Proposal}
+\author{}
+\date{}
+\begin{document}
+\emph{Reinforcement Learning} algorithms are stochastic approximation (SA) schemes and solve the MDP by making use of sample trajectories. Actor-Critic algorithms are two timescale SA schemes since they make use of different step-size schedules. The paper investigated the conditions under which two timescale SA schemes are stable and convergent. The highlights are as below:
+\begin{enumerate}
+\item We provided for the first time in literature the conditions that ensure the stability of the iterates of a two timescale stochastic approximation algorithm.
+\item Our result is applicable to show the stability of many two timescale stochastic approximation algorithms.
+\item Our analysis is based on the ODE method for stochastic approximation.
+\end{enumerate}
+\includepdf[pages=1-9]{ttsastb.pdf}
+\end{document}

@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}
+
+\bibitem{sschool}
+{C}{S}{A} {U}ndergraduate {S}ummer {S}chool,
+  http://events.csa.iisc.ernet.in/summerschool2014/.
+
+\bibitem{tube}
+Introduction to {L}inear {A}lgebra,
+  https://www.youtube.com/watch?v=qr-icg9wrz8.
+
+\bibitem{BertB}
+D.~P. Bertsekas.
+\newblock {\em Dynamic Programming and Optimal Control}, volume~II.
+\newblock Athena Scientific, Belmont, MA, 4th edition, 2013.
+
+\bibitem{sa}
+V.~S. Borkar.
+\newblock {\em Stochastic Approximation: A Dynamical Systems Viewpoint}.
+\newblock TRIM, 2008.
+
+\bibitem{boyd}
+Stephen Boyd and Lieven Vandenberghe.
+\newblock {\em Convex optimization}.
+\newblock Cambridge university press, 2004.
+
+\bibitem{aaai}
+L.~Chandashekar and S.~Bhatnagar.
+\newblock A generalized reduced linear program for markov decision processes.
+\newblock In {\em Proceedings of the Twenty-Ninth {AAAI} Conference on
+  Artificial Intelligence, January 25-30, 2015, Austin, Texas, {USA.}}, pages
+  2722--2728, 2015.
+
+\bibitem{hcomp}
+L.~Chandrashekar, A.Dubey, S.~Bhatnagar, and B.~Chithralekha.
+\newblock A markov decision process framework for predictable job completion
+  times on crowdsourcing platforms.
+\newblock In {\em Proceedings of the Seconf {AAAI} Conference on Human
+  Computation and Crowdsourcing, {HCOMP} 2014, November 2-4, 2014, Pittsburgh,
+  Pennsylvania, {USA}}, 2014.
+
+\bibitem{cdc}
+L.~Chandrashekar and S.~Bhatnagar.
+\newblock Approximate dynamic programming with (min; +) linear function
+  approximation for markov decision processes.
+\newblock In {\em 53rd {IEEE} Conference on Decision and Control, {CDC} 2014,
+  Los Angeles, CA, USA, December 15-17, 2014}, pages 1588--1593, 2014.
+
+\bibitem{algo}
+T.~H. Cormen, C.~E. Leiserson, R.~L. Rivest, and C.~Stein.
+\newblock {\em Introduction to algorithms}, volume~6.
+\newblock MIT press Cambridge, 2001.
+
+\bibitem{franco}
+S.~Franco.
+\newblock {\em Design with operational amplifiers and analog integrated
+  circuits}.
+\newblock McGraw-Hill, 2001.
+
+\bibitem{la}
+Gilbert G.~S.~Strang.
+\newblock {\em Introduction to Linear Algebra}, volume~3.
+\newblock Wellesley-Cambridge Press Wellesley, MA, 1993.
+
+\bibitem{mup}
+Ramesh~S Gaonkar.
+\newblock {\em Microprocessor architecture, programming, and applications with
+  the 8085}.
+\newblock Prentice-Hall, Inc., 1995.
+
+\bibitem{hayt}
+W.~H. Hayt, J.~E. Kemmerly, and S.~M. Durbin.
+\newblock {\em Engineering circuit analysis}.
+\newblock McGraw-Hill New York, 1986.
+
+\bibitem{em}
+E.~Kreyszig.
+\newblock {\em Advanced engineering mathematics}.
+\newblock John Wiley \& Sons, 1988.
+
+\bibitem{mano}
+M.~M. Mano.
+\newblock {\em Digital design}.
+\newblock EBSCO Publishing, Inc., 2002.
+
+\bibitem{ogata}
+Katsuhiko Ogata.
+\newblock {\em Modern control engineering}.
+\newblock Prentice Hall PTR, 2001.
+
+\bibitem{ss}
+A.~V. Oppenheim, A.~S. Willsky, and S.~H. Nawab.
+\newblock {\em Signals and systems}.
+\newblock Pearson, 2014.
+
+\bibitem{det}
+H.~V. Poor.
+\newblock {\em An introduction to signal detection and estimation}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem{ross}
+S.~M. Ross.
+\newblock {\em Stochastic processes}, volume~2.
+\newblock John Wiley \& Sons New York, 1996.
+
+\bibitem{rossbasic}
+Sheldon~M Ross.
+\newblock {\em Introduction to probability models}.
+\newblock Academic press, 2014.
+
+\bibitem{sedra}
+A.~S. Sedra and K.~C. Smith.
+\newblock {\em Microelectronic circuits}.
+\newblock Holt, Rinehart and Winston, 1982.
+
+\bibitem{rl}
+R.~S. Sutton and A.~G. Barto.
+\newblock {\em Introduction to Reinforcement Learning}.
+\newblock MIT Press, Cambridge, MA, USA, 1st edition, 1998.
+
+\end{thebibliography}

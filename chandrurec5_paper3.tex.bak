@@ -1,0 +1,43 @@
+%\documentclass[oneside,8pt,onecolumn,openright]{IIScthesisPSnPDF}
+\documentclass[8pt]{article}
+\input{pack}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{cleveref}
+\usepackage{wrapfig}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{enumerate}
+\usepackage{placeins}
+\usepackage{cancel}
+\usepackage{mathrsfs}
+% \usepackage{sfgame}
+\usepackage[compact]{titlesec}
+\usepackage{mdwlist}
+\usepackage{varwidth}
+\usepackage[vertfit]{breakurl}
+\usepackage{datetime}
+\usepackage{pdfpages}
+% \usepackage{biblatex}
+\usepackage{setspace}
+\title{Approximate dynamic programming with $(\min, +)$ linear function approximation for Markov decision processes}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\textbf{My Contributions}
+I was the first author of this paper and my contributions are listed as under.
+\begin{enumerate}
+\item Formulating the projected Bellman equation (PBE) in the $(\min,+)$ basis.
+\item Proposing novel approximate dynamic programming (ADP) algorithms based on the PBE in the $(\min,+)$ basis.
+\item The error analysis for the proposed ADP method.
+\end{enumerate}
+The paper was presented in the $53^{rd}$ IEEE conference on Control and Decision, Los Angeles.
+\includepdf[pages=1-6]{minplfa.pdf}
+\end{document}

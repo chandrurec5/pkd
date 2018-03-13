@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{auer}
+Peter Auer, Nicolo Cesa-Bianchi, and Paul Fischer.
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Machine learning}, 47(2-3):235--256, 2002.
+
+\bibitem{BertB}
+D.~P. Bertsekas.
+\newblock {\em Dynamic Programming and Optimal Control}, volume~II.
+\newblock Athena Scientific, Belmont, MA, 4th edition, 2013.
+
+\bibitem{rp}
+S.~Faradani, B.~Hartmann, and P.~G. Ipeirotis.
+\newblock What's the right price? pricing tasks for finishing on time.
+\newblock In {\em Human Computation}, 2011.
+
+\bibitem{smpls}
+S.~S. Farahani.
+\newblock Approximation methods in stochastic max-plus systems.
+\newblock 2012.
+
+\bibitem{ot}
+Jason~A Fuemmeler and Venugopal~V Veeravalli.
+\newblock Energy efficient multi-object tracking in sensor networks.
+\newblock {\em Signal Processing, IEEE Transactions on}, 58(7):3742--3750,
+  2010.
+
+\bibitem{powell}
+W.~B. Powell.
+\newblock {\em Approximate Dynamic Programming: Solving the curses of
+  dimensionality}, volume 703.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem{sg}
+Prashant~P Reddy and Manuela~M Veloso.
+\newblock Strategy learning for autonomous agents in smart grid markets.
+\newblock 2011.
+
+\bibitem{eh}
+Vinod Sharma, Utpal Mukherji, Vinay Joseph, and Shrey Gupta.
+\newblock Optimal energy management policies for energy harvesting sensor
+  nodes.
+\newblock {\em Wireless Communications, IEEE Transactions on}, 9(4):1326--1336,
+  2010.
+
+\bibitem{Sutton}
+R.~S. Sutton and A.~G. Barto.
+\newblock {\em Introduction to Reinforcement Learning}.
+\newblock MIT Press, Cambridge, MA, USA, 1st edition, 1998.
+
+\bibitem{Tsit}
+John~N. Tsitsiklis and Benjamin~Van Roy.
+\newblock An analysis of temporal-difference learning with function
+  approximation.
+\newblock 1997.
+
+\bibitem{qlearn}
+Christopher~JCH Watkins and Peter Dayan.
+\newblock Q-learning.
+\newblock {\em Machine learning}, 8(3-4):279--292, 1992.
+
+\end{thebibliography}

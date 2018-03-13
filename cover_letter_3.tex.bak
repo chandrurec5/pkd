@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{logo.png}}} % Company/institution logo at the top left of the page
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=50pt} % Slightly decrease the height of the signature field
+\newlfmP{addrfromphone} % Print a phone number under the sender's address
+\newlfmP{addrfromemail} % Print an email address under the sender's address
+\PhrPhone{Phone} % Customize the "Telephone" text
+\PhrEmail{Email} % Customize the "E-mail" text
+
+
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Chandrashekar Lakshminarayanan} % Name
+
+\addrfrom{
+\today\\[12pt] % Date
+Department of Computing Science,  \\ % Address
+University of Alberta, Canada
+}
+
+\phonefrom{+1(587) 778-2035} % Phone number
+
+\emailfrom{chandrurec5@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+
+\closeline{Sincerely yours,} % Closing text
+
+\nameto{Dear Director IIT-Palakkad} % Addressee of the letter above the to address
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I am extremely keen in applying for the position of Assistant Professor in the Departments of Computer Science and Engineering and Electrical Engineering (Ref: Advertisement No. IITPKD/R/F/01/2017).
+
+I am currently a post-doctoral research fellow in the Department of Computing Sciences at the University of Alberta. My area of specialization is Reinforcement Learning (a branch of Machine Learning) and I obtained my Ph.D, Masters degree from IISc, Bangalore and bachelors degree from NIT, Trichy. I worked as an Analog Design Engineer at Cosmic Circuits Pvt Ltd, Bangalore for a period of 3 years. I am also a recepient of the DST, Inspire Faculty award.
+
+I like to describe myself as a passionate academician who likes reseach work and teaching. I believe that my research and industry experience will prove to be extremely useful as a faculty at IIT Palakkad. I also think that there is much to gain for me from the energy and inquisitiveness of the future engineers at IIT Palakkad. I am furnishing the other required documents (curriculum vitae, teaching plan, research proposal, list of publications and patents and three of my best papers) and I kindly request you to peruse the same and provide due consideration for my application.
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\end{document}

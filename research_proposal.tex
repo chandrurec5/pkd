@@ -1,0 +1,77 @@
+\input{pre.tex}
+\usepackage{caption}
+\begin{document}
+%\Huge
+%\begin{center}
+%Panel of Experts
+%\end{center}
+\maketitle
+%\input{abstract}
+\section{Introduction}
+Real world is often uncertain, starting from the time taken to service a customer in a queue, to the return-on-investment in a particular stock. Decision making in the face of such uncertainty is hence crucial while designing practical systems with good performance. As Fig.~$1$ illustrates, \emph{decision making under uncertainty} is at the heart of several important research areas that have had major practical impact in the last few decades. In practice, the underlying uncertainty is captured using an appropriate stochastic model and an optimal decision is made based on the model. However, in complex real world systems, due to the \emph{curse-of-dimensionality} deriving such decision rules often become computationally intractable. While dimensionality free methods \cite{dpchapter} have had partial success in alleviating this problem, it is still an active area of research. More importantly, with the advent of the big data era (\textbf{http://dst.gov.in/big-data-initiative-1}) , it is crucial to develop decision making algorithms which are data driven (Fig.~$2$) as opposed to just being model based.
+\input{plan}
+\section{Background}
+Fig.~$3$ shows the various aspects to be taken into account while adopting a data-driven approach towards decision making. In what follows, we discuss these aspects briefly before highlighting the challenges and the research gaps that this proposal wishes to address.
+\FloatBarrier
+\input{flow}
+\subsection{Modeling}
+\textbf{Markov Decision Processes (MDP):}  Many real world decision making problems such as control of sensor networks, control of queuing systems, traffic control, inventory control, terrain exploration by robots, sequential drug administration, allocation of tasks and payments in service systems etc are examples of sequential decision making problems that can be modeled as MDP. Further, the Markovian nature of the system dynamics enables MDPs to be solved using the principle of Dynamic Programming (DP) leading us to the optimal decision rule.\par
+\textbf{Stochastic Max-Plus (SMPL) Systems:}  are the class of discrete event systems where elementary components interact via `synchronization' \cite{smpl}. The inherent randomness in the different interacting components causes the stochastic behavior. Examples of such systems include railway networks, production chain, scheduling, queuing and digital systems. \par
+\subsection{Uncertainty Quantification}
+\textbf{Multi-Armed Bandit:} Theory \cite{auer} characterizes the classical \emph{exploration-exploitation} trade-off. Bandit theory addresses the question of optimal sampling and at the same time with lesser compromise in performance, and is helpful in scenarios where samples need to be collected in an efficient way.\par
+\textbf{Stochastic Approximation (SA):} Theory \cite{sa} helps us to build data-drive algorithms wherein sample data can be plugged in the place of the unknown ground truth.
+\subsection{Algorithm}
+\textbf{Dimensionality Reduction:}
+\emph{Curse-of-dimensionality} denotes the fact that the number of states in the system grows exponentially in the number of state variables. 
+%Many MDPs arising in practical applications are afflicted by the curse, i.e., have large number of states and it is computationally difficult to apply exact DP methods. 
+Function approximation is a widely used dimensionality reduction wherein the each state is represented by a feature vector and computations are carried by taking linear combinations of the features. Dimensionality reduction is achieved by letting the dimension of the feature vector to be much less than the number of states.\par
+\textbf{Approximate Dynamic Programming:} (ADP) algorithms \cite{dpchapter} tackle the complexity of systems (i.e, of large number of states) by cleverly combining approximate representations and mathematical optimization.\par
+\begin{comment}
+\begin{center}
+\textbf{Multiple Players}
+\end{center}
+Game Theory is a natural framework to address decision problems involving multiple self-interested parties. Analyzing the Nash Equilibrium of a game offers insights on the kind of outcomes expected in such a scenario. Stochastic Games \cite{} is an outgrowth of MDP and game theory. Due to the \emph{curse}, computing exact Nash equilibria for stochastic games is difficult and research focus here would be to compute approximate Nash equilibria for stochastic games with large number of states.\par
+\end{comment}
+\textbf{Reinforcement Learning:} In most cases, the underlying system model in not known explicitly. However, the samples can be obtained via simulation or direct interaction with the system. Reinforcement Learning (RL) algorithms \cite{sutton} learn the optimal decision via feedback obtained by directly interacting with the system. 
+%RL algorithms make use of stochastic approximation \cite{sa} to filter the noise in the samples to learn the optimal behavior. 
+RL algorithms such as $Q$-learning \cite{qlearn}, temporal difference learning \cite{Tsit} have been successful in domains such as Backgammon, elevator control etc.
+
+\section{Objective: Open Problems and Potential Directions}\label{op}
+We now list below several research gaps that we propose to address (Table~\ref{open}).
+\begin{enumerate}
+\item \textbf{ADP with Performance Guarantees:} Since the ADP methods are not exact, in most cases they only compute approximate or sub-optimal decision rules. Several well known ADP algorithms suffer from convergence issues \cite{BertB} and the performance loss of the sub-optimal policy cannot be ascertained. However, some of our recent works \cite{cdcwork,aaaiwork} have shown conditions under which ADP algorithms are convergent and yield provably \emph{good} decision rule. The focus here is to explore newer ADP algorithms and approximation architectures that can be guaranteed to converge and yield a good decision rule.
+\item \textbf{ADP for Constrained and Risk Sensitive MDPs:} The discounted cost and the average cost are the most widely studied formulations in the classical MDP setting. However, in practice the decisions need to balance multiple costs and sensitivities to the various costs can be different. Constrained MDP formulation allows us to take into account the various costs involved. However, ADP algorithms for constrained MDPs have not been sufficiently explored. The Approximate Linear Programming (ALP) \cite{alp} approach to MDP can accommodate multiple cost functions. A possible research direction is to extend \cite{aaaiwork} to constrained MDP to derive new ADP algorithms. \emph{Risk} sensitive formulation of the MDP considers exponential cost and hence can be used in applications where risk avoidance is key.  Exploring ADP algorithms for the risk sensitive setting is another line of research.
+\item \textbf{ADP for Stochastic Max-Plus Systems:} Most of the current approaches are based on model predictive control \cite{smpl}. Exploring machine learning and stochastic optimization \cite{spsa} inspired ADP algorithms for SMPL systems is of interest.
+\item \textbf{Reinforcement Learning:} It is of interest to explore sample efficient, stable and convergent RL algorithms for systems with large number of states especially for the constrained, risk sensitive formulations.
+\item \textbf{Multi-Arm Bandits:}  Several variants of the problem including linear/convex/contextual bandits, bandits with complex or partial feedback have been considered in literature. While upper bounds for regret is known in various cases finding matching lower bounds is a challenging research direction that can be explored.
+\end{enumerate}
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|}\hline
+Problem& 	ADP& 	RL& Applications \\\hline
+Constrained MDP& *& \cite{const}, +& Urban Planning \\ \hline
+Risk Sensitive MDP& *&  \cite{borkarQ}, +& Health Care \\ \hline
+SMPL & \cite{smpl}&  *&  Traffic \\ \hline
+Bandit & \cite{convex}&  \cite{auer}, + & Crowdsourcing \\ \hline
+\end{tabular}
+\caption{Summary of open problems and potential contributions. Here `$*$' denotes potential for fundamental contribution, and `$+$' denotes scope for significant additions.}
+\label{open}
+\end{table}
+\section{Significance: Applications and Impact}
+Addressing the open problems in Section~\ref{op} will help us in developing algorithms for the following domains.\par
+\textbf{Urban Planning:} has separate costs related to the development of public transportation (roads/rail), facility development (housing, hospitals, industries) and resource distribution (power, water and sewage). Further, only a fixed budget is available at any given time. We propose \emph{Constrained MDPs} that will help us to take care of these multiple costs. Also, ADP algorithms for SMPL systems can be applied to synchronize commuter traffic across the road and rail networks.
+\par
+\textbf{Health Care:} An interesting recent advancement is to use data-driven decision making in the domain of health care. In particular, exploiting the patient specific data (history, congenital defects etc) to decide the remedy/drug-dosage to be administered from time to time is a challenging problem  \cite{mH1}. Another potential challenge is to use mobile devices for patient monitoring and for preventive interventions (alerting patients on the intake of medicine, therapy and rest). The algorithms for \emph{Risk Sensitive } MDPs can be applied to factor the \emph{risk} associated with wrong treatments.\par
+\textbf{Sensor Networks:}
+Sensors serves as an important backbone of real-time data-driven decision making. In general, most sensors are mobile and battery operated, it is important to spend as less battery power as possible. As a result energy efficient transmission has attracted the attention in recent times \cite{sw}. This can be achieved by forming a network of sensors with one centralized controller that collates information from other nodes, and the center also has control over the \emph{sleep-wake} schedules of all the other nodes. Multi-agent RL algorithms can be used to derive decentralized decision rules.
+\par
+\textbf{Human Computing:}
+Crowdsourcing (crowd) is a new mode of organizing work in multiple groups of smaller chunks of tasks and outsourcing them to a distributed and large group of people in the form of an open call. %Recently, crowd sourcing has become a major pool for human intelligence tasks (HITs) such as image labeling, form digitization, natural language processing, machine translation evaluation and user surveys. 
+We propose Bandit theory can be used to develop algorithms that use real time data (number of workers in the crowd, the number of pending tasks, the quality of the workers etc) to derive efficient decisions for pricing the tasks \cite{hcompwork}, allocating them to the crowd workers to their ensure timely completion.\par
+In all the application domains, we propose to develop new algorithms that are robust, scalable and real time, and in cases where previous work exists, extend significantly the state of the art by gaining novel insights. These newer domains are expected to lead us to develop newer theoretical frameworks and also look at some of the well known theoretical challenges under new light.
+\section{Long-Term Prospects}
+The models, analysis and algorithms developed in this research will also naturally extend to ecology (modeling prey/predator characteristics, migratory behavior, afforestation planning) and disaster management (modeling and planning of resources under calamity). Algorithms for road traffic, sensor network and city planning will eventually lead to building of smarter cities. A long-term goal is to evolve public policies more in the lines of projects such as PATH and TOPL (http://www.path.berkeley.edu/).
+\small
+\bibliographystyle{plain}
+\bibliography{refnew}
+\end{document}

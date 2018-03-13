@@ -1,0 +1,100 @@
+\begin{thebibliography}{10}
+
+\bibitem{auer}
+Peter Auer, Nicolo Cesa-Bianchi, Yoav Freund, and Robert~E Schapire.
+\newblock Gambling in a rigged casino: The adversarial multi-armed bandit
+  problem.
+\newblock In {\em Foundations of Computer Science, 1995. Proceedings., 36th
+  Annual Symposium on}, pages 322--331. IEEE, 1995.
+
+\bibitem{BertB}
+D.~P. Bertsekas.
+\newblock {\em Dynamic Programming and Optimal Control}, volume~II.
+\newblock Athena Scientific, Belmont, MA, 4th edition, 2013.
+
+\bibitem{sw}
+Qing Cao, Tarek Abdelzaher, Tian He, and John Stankovic.
+\newblock Towards optimal sleep scheduling in sensor networks for rare-event
+  detection.
+\newblock In {\em Proceedings of the 4th international symposium on Information
+  processing in sensor networks}, page~4. IEEE Press, 2005.
+
+\bibitem{rp}
+S.~Faradani, B.~Hartmann, and P.~G. Ipeirotis.
+\newblock What's the right price? pricing tasks for finishing on time.
+\newblock In {\em Human Computation}, 2011.
+
+\bibitem{smpl}
+Samira~S Farahani, Ton van~den Boom, and Bart De~Schutter.
+\newblock Exact and approximate approaches to the identification of stochastic
+  max-plus-linear systems.
+\newblock {\em Discrete Event Dynamic Systems}, 24(4):447--471, 2014.
+
+\bibitem{eh}
+Aman Kansal, Jason Hsu, Sadaf Zahedi, and Mani~B Srivastava.
+\newblock Power management in energy harvesting sensor networks.
+\newblock {\em ACM Transactions on Embedded Computing Systems (TECS)}, 6(4):32,
+  2007.
+
+\bibitem{clinical1}
+Michael~N Katehakis and Cyrus Derman.
+\newblock Computing optimal sequential allocation rules in clinical trials.
+\newblock {\em Lecture notes-monograph series}, pages 29--39, 1986.
+
+\bibitem{mH2}
+Predrag Klasnja, Eric~B Hekler, Saul Shiffman, Audrey Boruvka, Daniel Almirall,
+  Ambuj Tewari, and Susan~A Murphy.
+\newblock Microrandomized trials: An experimental design for developing
+  just-in-time adaptive interventions.
+\newblock {\em Health Psychology}, 34(S):1220, 2015.
+
+\bibitem{mywork}
+Chandrashekar Lakshminarayanan, Ayush Dubey, Shalabh Bhatnagar, and
+  Chithralekha Balamurugan.
+\newblock A markov decision process framework for predictable job completion
+  times on crowdsourcing platforms.
+\newblock In {\em Proceedings of the Seconf {AAAI} Conference on Human
+  Computation and Crowdsourcing, {HCOMP} 2014, November 2-4, 2014, Pittsburgh,
+  Pennsylvania, {USA}}, 2014.
+
+\bibitem{mH1}
+Peng Liao, Predrag Klasnja, Ambuj Tewari, and Susan~A Murphy.
+\newblock Sample size calculations for micro-randomized trials in mhealth.
+\newblock {\em Statistics in medicine}, 2015.
+
+\bibitem{gtmd}
+Y~Narahari.
+\newblock {\em Game Theory and Mechanism Design}, volume~4.
+\newblock World Scientific, 2014.
+
+\bibitem{braess}
+Eric~I Pas and Shari~L Principio.
+\newblock Braess' paradox: Some new insights.
+\newblock {\em Transportation Research Part B: Methodological}, 31(3):265--276,
+  1997.
+
+\bibitem{powell}
+W.~B. Powell.
+\newblock {\em Approximate Dynamic Programming: Solving the curses of
+  dimensionality}, volume 703.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem{clinical}
+William~H Press.
+\newblock Bandit solutions provide unified ethical models for randomized
+  clinical trials and comparative effectiveness research.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(52):22387--22392, 2009.
+
+\bibitem{spsa}
+J.C. Spall.
+\newblock Multivariate stochastic approximation using a simultaneous
+  perturbation gradient approximation.
+\newblock {\em Automatic Control, IEEE Transactions on}, 37(3):332--341, 1992.
+
+\bibitem{sutton}
+R.~S. Sutton and A.~G. Barto.
+\newblock {\em Introduction to Reinforcement Learning}.
+\newblock MIT Press, Cambridge, MA, USA, 1st edition, 1998.
+
+\end{thebibliography}

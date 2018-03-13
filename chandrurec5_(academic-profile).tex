@@ -1,0 +1,81 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{comment}
+\begin{document}
+\name{Chandrashekar Lakshminarayanan}
+% \address used twice to have two lines of address
+\address{Mobile: +1(587)-778-2035}
+\address{E-mail: chandrurec5@gmail.com}
+\begin{resume}
+\section{Short Summary} My research work deals with developing Approximate Dynamic Programming (ADP) and Reinforcement Learning (RL) algorithms with provable performance and guaranteed convergence. I am also interested in applications of RL and stochastic optimization to problems arising in practice. Currently, I am a post-doctoral research fellow in the Department of Computing Science, University of Alberta, and I obtained my PhD from the Department of Computer Science and Automation, Indian Institute of Science.
+\section{Interests}
+Markov Decision Processes, Approximate Dynamic Programming, Reinforcement Learning, Bandits, Machine Learning, Learning Theory, Stochastic Optimization, Stochastic Approximation and Stochastic Control.
+\section{Relevant Courses} 
+\begin{itemize}
+\item Stochastic Models and Applications, Stochastic Processes and Queuing Theory, Stochastic Approximation Algorithms
+\item Convex Optimization, Game Theory, Dynamics of Linear Systems
+\item Data mining, Pattern Recognition, Detection and Estimation Theory
+\item Real Analysis, Measure Theory, Topology (point-set), Linear Algebra
+\end{itemize}
+\section{Academics}
+\textbf{Ph.D.}[2010-2015] \\
+Department of Computer Science and Automation (CSA), \\
+Indian Institute of Science (IISc), Bangalore, India. \\
+\textbf{C.G.P.A:} 7.2/8 \\
+\textbf{M.E.} [2008 - 2010] \\
+Systems Science and Automation,\\
+Department of Electrical Engineering (EE), \\
+Indian Institute of Science (IISc), Bangalore, India. \\
+\textbf{C.G.P.A:} 7.1/8 (Best Student of the Batch) \\
+\\
+\textbf{B.Tech.} [2001 - 2005]\\
+Instrumentation and Control Engineering, \\
+National Institute of Technology, Tiruchirapalli.\\
+\textbf{C.G.P.A:} 8.61/10 (First Class with Distinction)  \\
+
+\section{Accomplishments}
+\begin{enumerate}
+\item I was All India Rank $1$ in the Graduate Aptitude Test in Engineering conducted in the year 2008 with a score of $1000/1000$.
+\item Presented with Medal of Honor for Best Pass out student in Systems Science and Automation, Indian Institute of Science.
+\item Best research presentation award in the IIST-Research Scholars Day held at Indian Institute of Space Technology, Trivandrum, December $2013$.
+\item Best research presentation award in the Electrical Engineering and Computer Science Colloquium held at IISc, Bangalore, February $2015$.
+\end{enumerate}
+
+
+\section{Thesis (Past Research)}
+\textbf{Title}:``Approximate Dynamic Programming and Reinforcement Learning - Algorithms, Analysis and an Application''\\
+\textbf{Advisor}: Prof. Shalabh Bhatnagar (shalabh@csa.iisc.ernet.in), Department of Computer Science and Automation, Indian Institute of Science, Bangalore - 560012\\
+%Background:\\
+\\
+\textbf{Abstract}: MDP is a useful mathematical framework to cast a variety of optimal sequential decision making problems under uncertainty in domains such as engineering, science and economics. However, computing optimal value function and optimal policy is difficult in practice because either the state space is too large or the model information is not available.\par
+The primary investigations in the thesis were:
+\begin{itemize}
+\item \emph{Approximate Dynamic Programming} refers to a gamut of methods that compute an approximate value function and a sub-optimal policy. The thesis investigated a widely used ADP method namely the Approximate Linear Programming (ALP) formulation. In particular, analytical tools were developed to bound the performance degradation that occurs when the constraint of the ALP are reduced or approximated. The analysis is based on ideas of monotone projections in tropical linear algebra.
+\item \emph{Reinforcement Learning} algorithms are stochastic approximation (SA) schemes and solve the MDP by making use of sample trajectories. Actor-Critic algorithms are two timescale SA schemes since they make use of different step-size schedules. The thesis investigated the conditions under which two timescale SA schemes are stable and convergent.
+\item \emph{Crowd Sourcing} is a new mode of organizing work in multiple groups of smaller chunks of tasks and outsourcing them to a distributed and large group of people in the form of an open call. An important task attribute that affects the completion time of a task is its price, and incorrect pricing leads to task starvation. In the thesis, the pricing problem is formulated in the MDP framework to compute a pricing policy that achieves predictable completion times in simulations as well as real world experiments.
+\end{itemize}
+\begin{comment}
+Solving MDPs typically involves computing the optimal value function and the optimal policy. However, most MDPs arising in practice have a large number of states and it is difficult to compute the optimal value function/policy. Approximate Dynamic Programming deal MDPs with large number of states by computing an approximate value function and a sub-optimal policy. The most widely used approach by ADP methods is linear function approximation wherein the value function is restricted to a subspace spanned by a set of basis functions.\par
+Approximate Linear Programming (ALP) method has guaranteed performance for the sub-optimal policy it computes. A significant shortcoming of the ALP is that the number of constraints are large in the case MDPs with large number of states. In the thesis, we introduce the Generalized Reduced Linear Program 
+\end{comment}
+\section{Publications (from the thesis)}
+\subsection{Journal}
+\begin{itemize}
+\item Chandrashekar, L. and  Bhatnagar, S. ``A Stability Criterion for Two Timescale Stochastic Approximation Schemes", Accepted for publication in Automatica, 2017.
+\item Chandrashekar, L.;  Bhatnagar, S and Szepesv\'{a}ri C., ``A Generalized Reduced Linear Program for Markov Decision Processes" (under Review in IEEE Transactions on Automatic Control).
+\end{itemize}
+\subsection{International Conferences}
+\begin{itemize}
+\item Chandrashekar, L.; Bhatnagar, S., ``Approximate Dynamic Programming with $(\min,+)$ linear function approximation for Markov Decision Processes," 53rd IEEE Annual Conference on Decision and Control (CDC), December $15-17$, $2014$, Los Angeles California, USA.
+\item Chandrashekar, L.; Bhatnagar, S., ``A Generalized Reduced Linear Program for Markov Decision Processes," Twenty-Ninth AAAI Conference on Artificial Intelligence, January $25-30$, $2015$, Austin Texas, USA.
+\item Chandrashekar, L.;  Dubey, A.; Bhatnagar, S. and Chithralekha, B., ``A Markov Decision Process framework for predictable job completion times on crowdsourcing platforms", Proceedings of the Second {AAAI} Conference on Human Computation and Crowdsourcing, {HCOMP} 2014, Pittsburgh, Nov. 2-4, 2014.
+\item Maity, R. K.; Chandrashekar, L.;  Padakandla, S.; Bhatnagar, S., ``
+Shaping Proto-Value Functions Using Rewards", European Conference on Artificial Intelligence 2016.
+\end{itemize}
+
+
+
+\end{resume}
+\end{document}

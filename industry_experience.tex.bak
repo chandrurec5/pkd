@@ -1,0 +1,35 @@
+%\documentclass[oneside,8pt,onecolumn,openright]{IIScthesisPSnPDF}
+\documentclass[onecolumn,12pt]{IEEEtran}
+\input{pack.tex}
+\usepackage{url}
+%\usepackage[numbers]{natbib}
+\title{\Large Industry Experience}
+\author{Chandrashekar L}
+\date{}
+\begin{document}
+%\Huge
+%\begin{center}
+%Panel of Experts
+%\end{center}
+\maketitle
+\quad\\
+\textbf{Designation}: Analog Design Engineer\\
+\textbf{Organization}: Cosmic Circuits Pvt Ltd, Bangalore\\
+\textbf{Period}: 3 years ($2005-2008$) \\
+\textbf{Role}: I was part of the High Speed Analog to Digital Converters (ADC) Team. I was involved the following tasks:
+\begin{itemize}
+\item Design of blocks such as
+\begin{itemize}
+\item Amplifiers with state-of-the-art feedback compensation schemes.
+\item Comparators.
+\item Digital Error Correction Logic.
+\end{itemize}
+\item Full system simulation, testing and debugging of 10 to 12 bit ADCs.
+\item Worked in CMOS technologies varying from $0.360\mu$m to $65$nm.
+\end{itemize}
+\textbf{Summary:} Cosmic Circuits Pvt Ltd was an analog IC design start up in 2005. As a fresh B. Tech graduate from National Institute of Technology, Trichy (2001-2005), I had a wonderful learning experience at Cosmic Circuits. My roles as a design engineer helped to get a real taste of how theory that I had learnt in my curriculum translated into actual design.\par
+A typical integrated chip (IC) development involves two phases namely designing and debugging. I was fortunate to be involved in designing of comparators, multi-stage amplifiers and digital error logic circuits. I learnt simple design principles such as estimating the power/area numbers, budgeting the available voltage levels (say 3V or 1.8V) to the various devices and providing enough decoupling capacitors that attenuate the glitches etc. I was also involved in debugging of the ICs after fabrication. Many a times the ICs might not work as intended immediately after the first fabrication, mainly due to the fact that, after fabrication,  non-idealities that could not be captured during the design manifest as degradation in performance. Thus, in this cycle, it is important to identify such sources of performance loss and fix them in design.\par
+The role as a design engineer also involved reading papers (IEEE Transaction of Circuits and Systems, Journal of Solid State Circuits). This reading experience helped me to realize the importance of keeping abreast with current literature goes a long way in understanding and solving design problems that occur in practice.\par
+Even though I moved onto my higher studies at 2008, I consider my experience as an analog circuits design engineer very invaluable. And as a faculty at IIT-Palakkad, I would be very happy to pass on my knowledge to engineers of the future.
+\end{document}
+

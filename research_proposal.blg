@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: research_proposal.aux
+The style file: plain.bst
+Database file #1: refnew.bib
+A bad cross reference---entry "cdcwork"
+refers to entry "DBLP:conf/cdc/2014", which doesn't exist
+A bad cross reference---entry "aaaiwork"
+refers to entry "DBLP:conf/aaai/2015", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/aaai/2015"
+Warning--I didn't find a database entry for "DBLP:conf/cdc/2014"
+Warning--empty journal in Tsit
+You've used 18 entries,
+            2118 wiz_defined-function locations,
+            618 strings with 7123 characters,
+and the built_in function-call counts, 6404 in all, are:
+= -- 633
+> -- 280
+< -- 7
++ -- 115
+- -- 92
+* -- 424
+:= -- 1030
+add.period$ -- 57
+call.type$ -- 18
+change.case$ -- 100
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 266
+empty$ -- 521
+format.name$ -- 92
+if$ -- 1375
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 21
+newline$ -- 93
+num.names$ -- 36
+pop$ -- 118
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 189
+stack$ -- 0
+substring$ -- 391
+swap$ -- 70
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 1
+while$ -- 59
+width$ -- 20
+write$ -- 203
+(There were 2 error messages)
